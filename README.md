@@ -5,7 +5,7 @@ performance, discount efficiency and seasonality — delivered as a reproducible
 an interactive Streamlit dashboard.
 
 
-![Dashboard preview](docs/dashboard.png)
+Link to the dashboard -> ![Dashboard preview](docs/dashboard.png)
 
 > (https://superstore-sales-analytics-cmjkrco4r4qnklhvjjnn3e.streamlit.app/)
 
