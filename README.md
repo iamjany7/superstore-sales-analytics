@@ -7,7 +7,7 @@ an interactive Streamlit dashboard.
 
  ![Dashboard preview](docs/dashboard.png)
 
-> Link to the dashboard -> (https://superstore-sales-analytics-cmjkrco4r4qnklhvjjnn3e.streamlit.app/)
+View live dashboard -> (https://superstore-sales-analytics-cmjkrco4r4qnklhvjjnn3e.streamlit.app/)
 
 ---
 
