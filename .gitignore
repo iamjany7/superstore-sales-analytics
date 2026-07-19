@@ -1,0 +1,54 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments --------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --- Testing / tooling -----------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Streamlit -------------------------------------------------------------
+# Local secrets must never be committed; the deployed app sets these in the
+# Streamlit Cloud dashboard instead.
+.streamlit/secrets.toml
+
+# --- Environments & editors ------------------------------------------------
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+
+# --- OS --------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Data ------------------------------------------------------------------
+# The source CSV IS committed (11 MB, well under GitHub's 100 MB limit) so the
+# deployed dashboard has data to read. Ignore derived and scratch files only.
+data/*.parquet
+data/processed/
+*.tmp

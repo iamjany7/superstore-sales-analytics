@@ -1,0 +1,9 @@
+# Local development extras — running and editing the exploration notebook.
+# Not needed to deploy the dashboard, so kept out of requirements.txt.
+
+-r requirements.txt
+
+jupyterlab==4.6.1
+notebook==7.6.0
+ipykernel==7.3.0
+nbformat==5.10.4

@@ -1,0 +1,10 @@
+# Runtime dependencies for the Streamlit dashboard and the /src package.
+# Pinned so local runs and Streamlit Community Cloud resolve identically.
+
+pandas==3.0.3
+streamlit==1.59.2
+plotly==6.9.0
+
+# Used by the exploration notebook's static charts.
+matplotlib==3.11.1
+seaborn==0.13.2
