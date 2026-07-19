@@ -7,7 +7,7 @@ an interactive Streamlit dashboard.
 <!-- TODO: replace with a screenshot or GIF of the running dashboard -->
 <!-- ![Dashboard preview](docs/dashboard.png) -->
 
-> **🔗 Live demo:** _TODO — add the Streamlit Community Cloud URL after deploying._
+> (https://superstore-sales-analytics-cmjkrco4r4qnklhvjjnn3e.streamlit.app/)
 
 ---
 
