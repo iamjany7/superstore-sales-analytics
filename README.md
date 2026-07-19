@@ -61,28 +61,6 @@ Three quirks in the raw file that the cleaning layer handles explicitly:
 | Dashboard | Streamlit |
 | Environment | venv, pinned `requirements.txt` |
 
-## Project structure
-
-```
-.
-├── app/
-│   └── app.py                    # Streamlit dashboard
-├── data/
-│   └── SuperStore_Orders.csv     # Raw dataset
-├── notebooks/
-│   └── data_exploration.ipynb    # Case-study notebook (cleaning + EDA + insights)
-├── src/
-│   ├── config.py                 # Paths, column names, analysis constants
-│   ├── data_loader.py            # Reading the raw CSV
-│   ├── data_cleaning.py          # Type fixes, dedup, derived columns
-│   └── analysis.py               # Reusable aggregations
-├── requirements.txt              # Runtime dependencies
-├── requirements-dev.txt          # + notebook tooling
-└── README.md
-```
-
-**The notebook and the dashboard import the same functions from `/src`** — no analysis logic is
-duplicated between them, so both are guaranteed to report identical figures.
 
 
 ## Dashboard features
