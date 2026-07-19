@@ -4,8 +4,8 @@ An end-to-end retail sales analysis of **51,290 global order lines (2011–2014)
 performance, discount efficiency and seasonality — delivered as a reproducible Jupyter case study and
 an interactive Streamlit dashboard.
 
-<!-- TODO: replace with a screenshot or GIF of the running dashboard -->
-<!-- ![Dashboard preview](docs/dashboard.png) -->
+
+[Dashboard preview](docs/dashboard.png)
 
 > (https://superstore-sales-analytics-cmjkrco4r4qnklhvjjnn3e.streamlit.app/)
 
