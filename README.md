@@ -84,27 +84,6 @@ Three quirks in the raw file that the cleaning layer handles explicitly:
 **The notebook and the dashboard import the same functions from `/src`** — no analysis logic is
 duplicated between them, so both are guaranteed to report identical figures.
 
-## Running locally
-
-```bash
-git clone https://github.com/<your-username>/superstore-sales-analytics.git
-cd superstore-sales-analytics
-
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-
-pip install -r requirements.txt
-streamlit run app/app.py
-```
-
-The dashboard opens at <http://localhost:8501>.
-
-To work through the notebook as well:
-
-```bash
-pip install -r requirements-dev.txt
-jupyter lab notebooks/data_exploration.ipynb
-```
 
 ## Dashboard features
 
