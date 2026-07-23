@@ -346,8 +346,8 @@ def main() -> None:
 
     st.title("📊 Superstore Sales Analytics")
     st.caption(
-        f"Regional performance, discount efficiency and seasonality across "
-        f"{len(df):,} global order lines, 2011–2014."
+        "Regional performance, discount efficiency and seasonality across "
+        "51 290 global order lines, 2011–2014."
     )
 
     if filtered.empty:
